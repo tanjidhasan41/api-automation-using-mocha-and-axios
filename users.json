@@ -1,0 +1,30 @@
+[
+    {
+        "id": 41074,
+        "name": "Melanie Hoppe",
+        "email": "anjali_klein@yahoo.com",
+        "phone_number": "01716072581",
+        "role": "Customer"
+    },
+    {
+        "id": 41075,
+        "name": "Mitchell Hamill",
+        "email": "audra18@yahoo.com",
+        "phone_number": "01711450170",
+        "role": "Customer"
+    },
+    {
+        "id": 41076,
+        "name": "Miss Tamara Schmeler",
+        "email": "viola.funk@gmail.com",
+        "phone_number": "01712510255",
+        "role": "Agent"
+    },
+    {
+        "id": 41077,
+        "name": "Lorena Reichel",
+        "email": "horacio42@hotmail.com",
+        "phone_number": "01711588832",
+        "role": "Merchant"
+    }
+]
