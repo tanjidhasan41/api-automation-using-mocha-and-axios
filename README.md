@@ -5,7 +5,7 @@ This project automates API testing for the **Dmoney API** using **Mocha** and **
 ## **Project Description**  
 This automation script follows a structured workflow to test various API endpoints in **Dmoney API**. The workflow includes:  
 1. **Admin Login** – Authenticate using admin credentials.  
-2. **User Creation** – Create two customers and one agent.  
+2. **User Creation** – Create two customers, one agent and one merchant.  
 3. **System Deposit** – Transfer funds from the system account to the agent.  
 4. **Customer Deposit** – Deposit money from the agent to a customer.  
 5. **Customer Withdrawal** – Withdraw money from a customer to the agent.  
@@ -30,17 +30,21 @@ Before running the automation scripts, ensure you have the following installed:
 ## **How to Run the Tests**  
 Follow these steps to execute the tests:  
 
-### **1️⃣ Clone the Repository**  
-### **2️⃣ Install Dependencies**
-### **3️⃣ Configure Environment Variables**
-### **4️⃣ Run the Automation Scripts**
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-link>
+   cd <project-folder>
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the Test:
+   ```sh
+   npm start file file-name
+   ```
 
 ## **Reports**
 
 ![image](https://github.com/user-attachments/assets/c81ffa9e-1701-4dfe-ba27-34d3a1560bb4)
 
-
-## **📢 Notes**
-- *The script assumes that the API follows a RESTful pattern.*
-- *Ensure valid credentials in ```.env``` before running tests.*
-- *Modify ```users.json``` as needed for different test scenarios.*
